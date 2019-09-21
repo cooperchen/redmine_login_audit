@@ -32,7 +32,7 @@ For Redmine 2.x compatibility, check the 1.x version of the plugin
 
 First download the plugin using git, open a terminal in your Redmine installation directory:
 
-```git clone git@github.com:martin-denizet/redmine_login_audit.git ./plugins/```
+```git clone git@gitlab.com:monobilisim/redmine/redmine_login_audit.git ./plugins/```
 
 Install the dependencies:
 
@@ -72,6 +72,7 @@ Note that enabling API authentication logging will potentially create MASSIVE am
 * GitRms: Testing
 * Marco Senn: Support
 * Thorsten Jaeger: Support
+* Erdem Olcay: Redmine 4.0 compatibility
 
 
 Uses "Silk icon" by Mark James at http://www.famfamfam.com/ licensed under "Creative Commons Attribution 2.5 License"
@@ -87,11 +88,6 @@ Uses WiceGrid gem by Yuri Leikind licensed under "MIT License"
 
 *Please do not make your pull requests on the master branch.*
 
-## Donations
-
-As manager of this plugin, I accept donations. It helps me justifying taking time away from lucrative work and family. Many thanks!
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=XSNA28NKNU76S&lc=FR&item_name=Martin%20Denizet&item_number=redmine_login_audit&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="[paypal]" /></a>
 
 ## License
 
