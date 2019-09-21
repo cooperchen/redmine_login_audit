@@ -1,6 +1,6 @@
 # Redmine Login Audit
 
-If you like this plugin, you're welcome to visit my blog: http://martin-denizet.com
+This is a Redmine 4.0 compatible fork of https://github.com/martin-denizet/redmine_login_audit.
 
 ## Features
 
@@ -20,6 +20,7 @@ If you like this plugin, you're welcome to visit my blog: http://martin-denizet.
 ## Compatibility
 
 Tested working with Ruby 2.2.3 on:
+* Redmine 4.0.x
 * Redmine 3.4.x
 * Redmine 3.2.x
 * Redmine 3.1.x
