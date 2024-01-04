@@ -1,18 +1,18 @@
 #
 # Copyright (C) 2018 Martin Denizet <martin.denizet@supinfo.com>
 #
-require_dependency 'redmine_login_audit/application_controller_patch'
-require_dependency 'redmine_login_audit/account_controller_patch'
-
+require File.dirname(__FILE__) + '/lib/redmine_login_audit/application_controller_patch'
+require File.dirname(__FILE__) + '/lib/redmine_login_audit/account_controller_patch'
+require 'redmine'
 Rails.application.config.assets.precompile += %w( wice_grid.js )
 
 Rails.configuration.to_prepare do
 
-  require_dependency 'auth_source'
+  require 'auth_source'
 
-  require_dependency 'redmine_login_audit/hooks'
+  require File.dirname(__FILE__) + '/lib/redmine_login_audit/hooks'
 
-  require_dependency File.expand_path('../config/wice_grid_config', __FILE__)
+  require File.expand_path('../config/wice_grid_config', __FILE__)
 
   #Migration for settings from version <= 0.2.4
   settings = Setting.plugin_redmine_login_audit
